@@ -1,0 +1,22 @@
+.offscreen {
+    position:absolute;
+    //it will be offscreen but the screen reader is still able to read it
+    left: -10000px;
+}
+//for accessibility purpose
+.skip-link{
+    position:absolute;
+    top: -999px;
+    left: 0;
+    background: $text-shadow-color;
+    padding:14px;
+    z-index: 1;
+    color:$font-color;
+}
+//when user tabs to it using the keyboard
+.skip-link:focus,
+//when it is activly being clicked on or pressed
+.skip-link:active{
+    top:auto;
+    left: auto;
+}
