@@ -16,7 +16,7 @@
             //button is 48px so -52px to leave some room
             width:calc(100% - 52px);
             font-size: 1.25rem;
-            padding: 0.75rem 0 0.75 rem 0.75rem;
+            padding: 0.75rem 0 0.75rem 0.75rem;
             outline: none;
         }
         .searchBar__text::placeholder{
@@ -29,7 +29,8 @@
                 font-size: 1.7rem;
             }
         }
-
+        
+        //hover triggered by mouse pointer hovering over, focus triggered by keyboard and mouse 
         .searchBar__button:hover,
         .searchBar__button:focus{
             border:none;
